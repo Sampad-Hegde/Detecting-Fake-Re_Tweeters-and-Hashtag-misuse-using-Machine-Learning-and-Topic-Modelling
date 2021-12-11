@@ -57,10 +57,10 @@ Classifiers :
 
 | Sl. No. | Model | Training Accuracy | Validation Accuracy |
 | :--- | :----: | :----: | ---: |
-| 1 | KNN | 100% | 77.77% |
+| 1 | KNN | 86.6% | 88.5% |
 | 2 | SVM | 86.81% | 89.21% |
 | 3 | Naive Bayes | 86.81% | 89.21% |
-| 4 | Fully Connected Neural Network | 86.81% | 89.21% |
+| 4 | Fully Connected Neural Network | 86.81% | 89.54% |
 
 ## Models only on textual features :
 
@@ -78,10 +78,10 @@ Classifiers :
 
 | Sl. No. | Model | Training Accuracy | Validation Accuracy |
 | :--- | :----: | :----: | ---: |
-| 1 | KNN | 99% | 77.77% |
-| 2 | SVM | 85% | 89.21% |
-| 3 | Naive Bayes | 79% | 89.21% |
-| 4 | Fully Connected Neural Network  | 91% | 89.21% |
+| 1 | KNN | 90.82% | 88.88% |
+| 2 | SVM | 85% | 88.21% |
+| 3 | Naive Bayes | 79% | 83.21% |
+| 4 | Fully Connected Neural Network  | 91% | 91.83% |
 
 ### Bag Words Technique : 
 For each tweet-text for list of words represented as corresponding vocab index of the word.
@@ -94,8 +94,8 @@ Classifiers :
 
 | Sl. No. | Model | Training Accuracy | Validation Accuracy |
 | :--- | :----: | :----: | ---: |
-| 1 | LSTM Layers | 84.7% | 85.09% |
-| 2 | Bi-LSTM, Embedding, Dense, Flatten, Dropout and Batch Normalization | 92.39% | 85.09% |
+| 1 | LSTM Layers | 99.03% | 88.76% |
+| 2 | Bi-LSTM, Embedding, Dense, Flatten, Dropout and Batch Normalization | 92.39% | 85.5% |
 
 ### Words Embedding Technique (Word2Vec):
 For each tweet-text for list of words represented as corresponding vocab index of the word, and it is converted to pad Sequence.
@@ -123,7 +123,7 @@ Classifiers :
 
 | Sl. No. | Model | Training Accuracy | Validation Accuracy |
 | :--- | :----: | :----: | ---: |
-| 1 | KNN | 100% | 74.51% |
+| 1 | KNN | 82.06% | 76.51% |
 | 2 | SVM | 75.34% | 80.71% |
 | 3 | Naive Bayes | 70.51% | 69.93% |
-| 4 | Fully Connected Neural Network | 79.69% | 78.1% |
+| 4 | Fully Connected Neural Network | 82.69% | 75.16% |
