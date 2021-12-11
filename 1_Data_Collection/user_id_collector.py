@@ -8,8 +8,8 @@ tokenFilename = 'ConsumerAuthTokens.txt'
 
 
 class UserIDCollector:
-    API_KEY = "4jgj5TWqrQUIvVEAitGUPuiWC"
-    API_SECRETE_KEY = "RfWNwy8zAELkBiTJVEfcM3OaNhybHjSELNPZGLM0l4lC0PTheQ"
+    API_KEY = "<Conumer_API_KEY>"
+    API_SECRETE_KEY = "<Conumer_API_SECRETE_KEY>"
     CONSUMER_API_KEY = None
     CONSUMER_API_SECRETE_KEY = None
     userIDSet = set()
