@@ -1,6 +1,8 @@
 # Detection of fake Re-tweeters and Mis-use of trending #HashTag in Twitter using Machine Learning, Topic Modelling (NLP) and Deep Learning Techniques
 Install all the packages to your virtual environment or anaconda.
 
+Reasearch Paper : https://ieeexplore.ieee.org/document/9824364
+
 ```shell
 pip3 install -r requirements.txt
 ```
